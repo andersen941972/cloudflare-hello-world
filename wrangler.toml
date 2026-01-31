@@ -1,0 +1,12 @@
+name = "cloudflare-hello-world"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Uncomment to use a custom domain
+# routes = [
+#   { pattern = "example.com/*", zone_name = "example.com" }
+# ]
+
+# Environment variables (for production)
+# [env.production]
+# name = "cloudflare-hello-world-production"

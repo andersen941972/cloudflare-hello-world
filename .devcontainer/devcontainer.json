@@ -1,0 +1,17 @@
+{
+    "name": "Cloudflare Workers Hello World",
+    "image": "devpod-base:latest",
+    "forwardPorts": [
+        8787
+    ],
+    "postCreateCommand": "npm install",
+    "remoteUser": "node",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "cloudflare.vscode-wrangler",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    }
+}
